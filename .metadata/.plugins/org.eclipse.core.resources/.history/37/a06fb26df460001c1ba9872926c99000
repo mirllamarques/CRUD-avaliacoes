@@ -1,0 +1,6 @@
+package com.filmes.APIrest.Repository;
+
+@Repository
+public class Repository {
+
+}
