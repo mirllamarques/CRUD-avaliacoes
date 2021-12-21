@@ -1,0 +1,32 @@
+package com.filmes.APIrest.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.filmes.APIrest.Catalago.Filmes;
+import com.filmes.APIrest.Repository.CatalogoRepository;
+
+
+@RestController
+@RequestMapping(value="/api")
+public class controller {
+
+	@Autowired
+	private CatalogoRepository catalago;
+	
+	@GetMapping("/Catalago")
+	public List<Filmes> ListaFilmes(){
+		return catalago.findAll();
+	}
+	
+	@GetMapping("/Catalago/{categoria}")
+	public List<Filmes> ListaFilmesCategoria(@PathVariable(value="categoria") String categoria){
+		return catalago.find
+	}
+	
+}

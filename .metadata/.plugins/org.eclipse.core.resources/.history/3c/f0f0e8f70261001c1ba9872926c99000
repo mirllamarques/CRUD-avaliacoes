@@ -1,0 +1,7 @@
+package com.filmes.APIrest.Controller;
+
+@org.springframework.stereotype.Controller
+public class Controller {
+	
+	
+}
