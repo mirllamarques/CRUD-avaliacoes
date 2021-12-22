@@ -1,6 +1,6 @@
 .menu{
   top: 0%;
-  position: fixed;
+
 
 }
 .example-spacer {
@@ -41,21 +41,4 @@ a{
   background: linear-gradient(top, #4f5964 0%, #9e0341 40%);
   transition: 500ms;
   }
-.dropdown {
-  position: relative;
-  display: flex;
-}
-.dropdown-child {
-  display: none;
 
-  min-width: 200px;
-}
-.dropdown-child button {
-  margin: 20px;
-  text-decoration: none;
-}
-.dropdown:hover .dropdown-child {
-  display: inline-block;
-  justify-content: space-around;
-  align-items: stretch;
-}
