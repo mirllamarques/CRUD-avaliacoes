@@ -17,8 +17,6 @@ public class Filmes {
 	private String Nome;
 	@Column
 	private String categoria;
-	@Column
-	private int avaliação = 0;
 	
 	public Filmes() {
 		
@@ -47,12 +45,6 @@ public class Filmes {
 	}
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
-	}
-	public int getAvaliação() {
-		return avaliação;
-	}
-	public void setAvaliação(int avaliação) {
-		this.avaliação = avaliação;
 	}
 	
 	@Override
