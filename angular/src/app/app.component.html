@@ -4,11 +4,11 @@ link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
 <p>
   <mat-toolbar color="primary" class="menu">
-    <span>Critics</span>
+    <a href="http://localhost:4200/home"><span>Critics</span></a>
     <span class="example-spacer"></span>
-    <button mat-icon-button class="icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <a href="http://localhost:4200/favorites"><button mat-icon-button class="icon favorite-icon" aria-label="Example icon-button with heart icon" >
       <mat-icon>favorite</mat-icon>
-    </button>
+    </button></a>
     <button mat-icon-button class="icon" aria-label="Example icon-button with share icon">
       <mat-icon>rate_review</mat-icon>
     </button>
@@ -19,26 +19,21 @@ link rel="preconnect" href="https://fonts.googleapis.com">
  <div class="button-row">
     <div class="flex-container">
       <div class="options">
-        <button mat-fab color="primary" aria-label="Example icon button with a delete icon" id="add-button">
+        <a href="http://localhost:4200/add"><button mat-fab color="primary" aria-label="Example icon button with a delete icon" id="add-button">
           <mat-icon>add</mat-icon>
-        </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a bookmark icon" id="add-button">
+        </button></a>
+        <a href="http://localhost:4200/savedMovies"><button mat-fab color="primary" aria-label="Example icon button with a bookmark icon" id="add-button">
           <mat-icon>bookmark</mat-icon>
-        </button>
-        <button mat-fab color="primary" aria-label="Example icon button with a home icon" id="add-button">
+        </button></a>
+        <a href="http://localhost:4200/edit"><button mat-fab color="primary" aria-label="Example icon button with a home icon" id="add-button">
           <mat-icon>edit</mat-icon>
-        </button>
+        </button></a>
+        <a href="http://localhost:4200/avaliacoes">
         <button mat-fab color="primary" aria-label="Example icon button with a heart icon" id="add-button">
           <mat-icon>search</mat-icon>
-        </button>
+        </button></a>
       </div>
     </div>
   </div>
 
-<div class="welcome">
-  <h4>Bem-vindo ao</h4>
-  <div class="intro">
-    <h1>Critics</h1>
-  </div>
-</div>
-
+  <router-outlet></router-outlet>

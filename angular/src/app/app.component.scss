@@ -13,6 +13,13 @@
   border: none;
 }
 
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Oooh Baby', cursive;
+  font-size: 50px;
+}
+
 .options{
   display: flex;
   align-items: center;
@@ -51,29 +58,4 @@
   display: inline-block;
   justify-content: space-around;
   align-items: stretch;
-}
-
-.welcome{
-  display: block;
-  margin-top: 10%;
-  position: fixed;
-  margin-left: 42%;
-}
-
-h4{
-  font-size: 40px;
-  color: rgb(71, 48, 48);
-
-}
-.intro{
-
-  margin-top: 8%;
-  position: fixed;
-  margin-left: -9%;
-
-}
-
-h1{
-  font-family: 'Oooh Baby', cursive;
-  font-size: 190px;
 }
