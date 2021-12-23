@@ -1,5 +1,0 @@
-package com.filmes.APIrest.Repository;
-
-public interface CatalogoRepository {
-
-}

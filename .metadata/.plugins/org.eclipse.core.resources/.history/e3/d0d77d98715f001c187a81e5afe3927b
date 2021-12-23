@@ -1,5 +1,0 @@
-package com.filmes.APIrest.Catalago;
-
-public interface CatalagoRepository {
-
-}
