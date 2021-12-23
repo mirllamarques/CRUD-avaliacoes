@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "spring.datesource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datesource.url'"
+  },
+  {
+    "name": "spring.datesource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datesource.username'"
+  },
+  {
+    "name": "spring.datesource.passaword",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datesource.passaword'"
+  },
+  {
+    "name": "spring.datesource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datesource.driver-class-name'"
+  }
+]}
