@@ -17,6 +17,7 @@ import com.filmes.APIrest.ControllerRepository.RepositoryController;
 import com.filmes.APIrest.Filmes.Filmes;
 
 
+@org.springframework.stereotype.Controller
 @RestController
 @RequestMapping(value = "/Filmes")
 public class Controller {
@@ -52,7 +53,7 @@ public class Controller {
 		List<Filmes> filmes = controle.FindAll();
 		return ResponseEntity.ok().body(filmes);
 	}
-	@GetMapping(value="/categoria")
+	@GetMapping
 	public ResponseEntity<List<Filmes>> procuraCategoria(String categoria){
 		List<Filmes> filmes = controle.FindAll();
 		for (Filmes filme: filmes) {

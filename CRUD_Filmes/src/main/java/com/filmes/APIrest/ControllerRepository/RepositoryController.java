@@ -34,7 +34,6 @@ public class RepositoryController {
 	public void atualizaFilme(Filmes filmeAntigo, Filmes FilmeNovo) {
 		FilmeNovo.setNome(filmeAntigo.getNome());
 		FilmeNovo.setCategoria(filmeAntigo.getCategoria());
-		FilmeNovo.setAvaliação(filmeAntigo.getAvaliação());
 	}
 	
 	public Filmes updateFilme(Filmes filme) {

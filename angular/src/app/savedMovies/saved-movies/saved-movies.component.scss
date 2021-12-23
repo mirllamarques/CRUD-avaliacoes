@@ -1,9 +1,44 @@
-.test{
-  display: block;
-  margin-top: 10%;
-  position: fixed;
+
+.title{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+
+}
+
+h2{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #F50057;
+  pointer-events: none;
+
 }
 
 p{
-  font-size: 100px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  pointer-events: none;
+}
+
+#movies{
+  padding: 3%;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #c2185b;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  display: inline-block;
+  box-shadow: 0 0 10px #4A148C;
+  width: 200px;
+  height: 50px;
 }

@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { AddRoutingModule } from './add-routing.module';
 import { AddComponent } from './add/add.component';
 
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -11,7 +13,9 @@ import { AddComponent } from './add/add.component';
   ],
   imports: [
     CommonModule,
-    AddRoutingModule
+    AddRoutingModule,
+    MatIconModule,
+    MatButtonModule
   ]
 })
 export class AddModule { }

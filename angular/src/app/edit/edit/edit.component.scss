@@ -1,9 +1,91 @@
-.test{
-  display: block;
-  margin-top: 10%;
-  position: fixed;
+
+.title{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-p{
-  font-size: 100px;
+h1{
+
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+
+}
+
+label{
+  font-family:'Times New Roman', Times, serif;
+font-size: 20px;
+margin: 1%;
+
+}
+
+#movies{
+  padding: 3%;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #c2185b;
+  margin-left: 29%;
+  display: inline-block;
+  box-shadow: 0 0 10px #4A148C;
+}
+
+::-webkit-input-placeholder{
+  color: #F50057;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#filme{
+  margin-top: 1%;
+}
+
+#review{
+  height: 90px;
+}
+
+.display{
+display: flex;
+flex-direction: column;
+width: 500px;
+}
+
+.line2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoria{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  }
+
+  .id{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    }
+
+.border{
+  padding-left: 1%;
+  padding-right: 1%;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #c2185b;
+
+}
+
+.border:focus {
+  outline: none !important;
+  border: 2px solid #F50057;
+  box-shadow: 0 0 10px #4A148C;
+}
+
+
+#check-button{
+  margin-top: 6%;
+  margin-left: 43%;
 }

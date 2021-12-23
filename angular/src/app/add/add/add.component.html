@@ -1,16 +1,26 @@
-<div class="test"></div>
+
+<div >
+  <h1 class="title">Adicione seu review</h1>
 
 <div id="movies">
-    <div class="display">
+    <div class="display" id='filme'>
       <label for="title">Título</label>
-      <input type="text" placeholder="Filme">
+      <textarea name="filme" cols="3" rows="2" placeholder="Filme" class="border"></textarea>
     </div>
-</div>
 
-<div id="reviews">
-  <div>
-    <a href=""></a>
-    <label for="title">Teste</label>
-    <input type="text" placeholder="Filme">
+    <div class="display" id='filme'>
+      <label for="title">Categoria</label>
+      <input type="text" placeholder="Categoria" class="border">
+    </div>
+
+    <div class="display" id='filme'>
+      <label for="title">Review</label>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Escreva aqui sua avaliação" id="review" class="border"></textarea>
+    </div>
+
+    <button mat-raised-button color="primary" aria-label="Example icon button with a delete icon" id="check-button">
+      <mat-icon>check</mat-icon>
+    </button>
   </div>
-</div>
+
+

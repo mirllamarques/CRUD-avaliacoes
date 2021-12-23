@@ -4,6 +4,9 @@ import { CommonModule } from '@angular/common';
 import { EditRoutingModule } from './edit-routing.module';
 import { EditComponent } from './edit/edit.component';
 
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -11,7 +14,9 @@ import { EditComponent } from './edit/edit.component';
   ],
   imports: [
     CommonModule,
-    EditRoutingModule
+    EditRoutingModule,
+    MatIconModule,
+    MatButtonModule
   ]
 })
 export class EditModule { }

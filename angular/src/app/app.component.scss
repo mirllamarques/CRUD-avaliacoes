@@ -1,6 +1,6 @@
 .menu{
   top: 0%;
-
+  box-shadow: 0 0 5px #4A148C;
 
 }
 .example-spacer {
@@ -27,13 +27,14 @@ a{
   left: 10%;
   position: fixed;
   right: 10%;
-  top: 80%;
+  top: 89%;
   cursor: pointer;
 
 }
 
 #add-button{
   color: white;
+  box-shadow: 0 0 10px #4A148C;
 
 }
 #add-button:hover {
